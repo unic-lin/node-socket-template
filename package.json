@@ -1,0 +1,29 @@
+{
+  "name": "node-socket-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon  src/app.js",
+    "client": "nodemon  src/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unic-lin/node-socket-template.git"
+  },
+  "keywords": [],
+  "author": "linchengdong <chengdong2518@163.com> (https://github.com/chengdonglin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unic-lin/node-socket-template/issues"
+  },
+  "homepage": "https://github.com/unic-lin/node-socket-template#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
